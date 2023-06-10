@@ -1,0 +1,121 @@
+/**
+Palette: https://scrimba.com/links/hometown-palette
+RED: #E63946
+LIGHT: #F1FAEE
+AQUA: #A8DADC
+LIGHT BLUE: #457B9D
+DARK BLUE: #1D3557
+
+*/
+
+body {
+    margin: 0;
+    text-align: center;
+}
+
+img {
+    width: 100px;
+}
+
+.hero {
+    background: gray;
+    padding: 120px 0;
+    background-image: url("https://www.telegraph.co.uk/content/dam/eip/usa/alabama/vulcan-birmingham-credit-art-meripol.jpg");
+    background-size: cover;
+    background-repeat: no-repeat; 
+}
+
+.hero-title {
+    width: 225px;
+    display: block;
+    margin: 0 auto 11px auto;
+    font-size: 32px;
+    font-weight: 700px;
+    background-color: aqua;
+    border-radius: 10px   
+}
+
+.hero-subtitle {
+    width: 420px;
+    margin: 0 auto;
+    font-size: 20px;
+    background: plum;
+    border-radius: 10px;       
+}
+
+.section {
+    
+}
+.activities {
+    padding: 40px 83px 38px 83px;
+    background: lightblue;
+    
+}
+
+.activities-header {
+    flex-basis: 100%;
+    padding-bottom: 54px;
+}
+
+.activity-holder {
+    display: flex;
+    justify-content: space-around
+}
+
+.activity {
+    width: 190px;
+}
+
+.activity-img {
+    border-radius: 50%;
+}
+
+.activity-title {
+    
+}
+
+.activity-desc {
+    font-weight: 400px;
+    padding: 0px;
+    
+}
+
+
+.guide {
+    display: flex;
+    padding: 50px 0;
+    justify-content: center;
+}
+
+.card {
+    display: flex;
+    justify-content: space-between;
+    width: 400px;
+    height: 300px;
+    margin: 0 auto;
+    padding: 15px 10px;
+    background: red;
+    border-radius: 10px;
+    border-bottom: 4px solid darkred;
+}
+
+.guide-img {
+    width: 180px;
+    border-radius: 10px;   
+}
+.guide-details {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center; 
+    margin: 0 auto;   
+}
+
+.guide-header {
+    
+}
+
+.guide-desc {
+    width: 180px;
+    font-weight: 400px;
+}
